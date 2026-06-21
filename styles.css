@@ -77,7 +77,6 @@ main {
 }
 
 .hero,
-.metrics,
 .section {
   width: min(1180px, calc(100% - 48px));
   margin: 0 auto;
@@ -165,35 +164,6 @@ h3 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.metrics {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1px;
-  overflow: hidden;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--line);
-}
-
-.metrics div {
-  min-height: 132px;
-  padding: 24px;
-  background: var(--surface);
-}
-
-.metrics span {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--green);
-  font-size: 1.35rem;
-  font-weight: 800;
-}
-
-.metrics p {
-  margin-bottom: 0;
-  color: var(--muted);
 }
 
 .section {
@@ -339,10 +309,6 @@ h3 {
     width: min(320px, 100%);
   }
 
-  .metrics {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
   .two-column {
     gap: 28px;
   }
@@ -350,7 +316,6 @@ h3 {
 
 @media (max-width: 620px) {
   .hero,
-  .metrics,
   .section,
   .site-footer {
     width: min(100% - 28px, 1180px);
@@ -366,14 +331,6 @@ h3 {
 
   .lead {
     font-size: 1.05rem;
-  }
-
-  .metrics {
-    grid-template-columns: 1fr;
-  }
-
-  .metrics div {
-    min-height: auto;
   }
 
   .timeline article {
