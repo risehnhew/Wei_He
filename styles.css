@@ -280,6 +280,14 @@ h3 {
   margin: 0;
 }
 
+.plain-list a,
+.stack p a {
+  color: var(--green);
+  font-weight: 700;
+  text-decoration-color: rgba(29, 95, 83, 0.35);
+  text-underline-offset: 3px;
+}
+
 .site-footer {
   width: min(1180px, calc(100% - 48px));
   margin: 0 auto;
