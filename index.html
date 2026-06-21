@@ -3,163 +3,294 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Wei He | Personal Homepage</title>
+  <meta name="description" content="Wei He, Ph.D. - NLP researcher working on vision-language models, large language model evaluation, multimodal idiomaticity, multilingual NLP, and representation learning.">
+  <title>Wei He | NLP Researcher</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <p class="kicker">Personal Homepage</p>
-      <h1>Wei He</h1>
-      <p class="subtitle">PhD Researcher / Natural Language Processing (NLP)</p>
-      <div class="contact">
-        <a href="mailto:W.he@exeter.ac.uk">W.he@exeter.ac.uk</a>
-        <span>｜</span>
-        <a href="tel:+8618210366325">+86 182 1036 6325</a>
-      </div>
-    </div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Wei He homepage">Wei He</a>
+    <nav aria-label="Primary navigation">
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#service">Service</a>
+    </nav>
   </header>
 
-  <main class="container">
-    <section class="card">
-      <h2>Profile</h2>
-      <div class="grid">
-        <div>
-          <p><strong>Name:</strong> Wei He</p>
-          <p><strong>Gender:</strong> Male</p>
-          <p><strong>Nationality:</strong> China</p>
-          <p><strong>Ethnicity:</strong> Han</p>
-          <p><strong>Marital Status:</strong> Unmarried</p>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Postdoctoral Research Associate, University of Exeter</p>
+        <h1>Wei He, Ph.D.</h1>
+        <p class="lead">
+          I am an NLP researcher working on vision-language models, large language model evaluation,
+          multimodal idiomaticity, multilingual NLP, multiword expressions, and representation learning.
+        </p>
+        <div class="contact-links" aria-label="Contact links">
+          <a href="mailto:W.he@exeter.ac.uk">W.he@exeter.ac.uk</a>
+          <a href="https://scholar.google.com/citations?user=3BWaQ4cAAAAJ&amp;hl=en" rel="me">Google Scholar</a>
+          <a href="https://github.com/risehnhew" rel="me">GitHub</a>
         </div>
-        <div>
-          <p><strong>Hometown:</strong> Shangqiu, Henan</p>
-          <p><strong>Height:</strong> 189 cm</p>
-          <p><strong>Weight:</strong> 90 kg</p>
-          <p><strong>Political Affiliation:</strong> CPC Member</p>
-          <p><strong>Religion:</strong> None</p>
-          <p><strong>Interests:</strong> Basketball, hiking</p>
-        </div>
-        <div>
-          <p><strong>Highest Degree:</strong> PhD</p>
-          <p><strong>Graduation:</strong> Jun 2023</p>
-          <p><strong>Research Focus:</strong> Natural Language Processing (NLP)</p>
-        </div>
+      </div>
+      <figure class="portrait">
+        <img src="https://avatars.githubusercontent.com/u/30516758?v=4" alt="Wei He">
+      </figure>
+    </section>
+
+    <section class="metrics" aria-label="Profile highlights">
+      <div>
+        <span>20,000</span>
+        <p>GPU-hours awarded on Isambard-AI AIRR</p>
+      </div>
+      <div>
+        <span>ACL 2026</span>
+        <p>Main conference paper accepted</p>
+      </div>
+      <div>
+        <span>2</span>
+        <p>International shared tasks organized</p>
+      </div>
+      <div>
+        <span>Ph.D.</span>
+        <p>Computer Science, University of Southampton</p>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Education</h2>
+    <section id="research" class="section two-column">
+      <div>
+        <p class="section-label">Research</p>
+        <h2>Multimodal meaning, idiomaticity, and robust language understanding.</h2>
+      </div>
+      <div class="stack">
+        <p>
+          My research studies how language and multimodal models represent meaning across literal,
+          idiomatic, visual, and cross-lingual contexts. Recent work focuses on semantic anchorage in
+          vision-language models, LLM/VLM evaluation, benchmark construction, and multilingual
+          representations for idioms and multiword expressions.
+        </p>
+        <ul class="tag-list" aria-label="Research areas">
+          <li>Natural Language Processing</li>
+          <li>Vision-Language Models</li>
+          <li>Large Language Model Evaluation</li>
+          <li>Multimodal Idiomaticity</li>
+          <li>Multilingual NLP</li>
+          <li>Representation Learning</li>
+          <li>Semantic Evaluation</li>
+          <li>Benchmark Construction</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <div class="section-heading">
+        <p class="section-label">Selected Publications</p>
+        <h2>Recent work</h2>
+      </div>
+      <ol class="publication-list">
+        <li>
+          <strong>Wei He.</strong>
+          More Than Meets the Eye: Measuring the Semiotic Gap in Vision-Language Models via Semantic Anchorage.
+          <em>ACL 2026 Main Conference</em>, 2026. Accepted.
+        </li>
+        <li>
+          <strong>Wei He</strong>, Tiago Kramer Vieira, Marcos Garcia, Carolina Scarton, Marco Idiart, and Aline Villavicencio.
+          Investigating Idiomaticity in Word Representations. <em>Computational Linguistics</em>, 51(2):505-555, 2025.
+        </li>
+        <li>
+          Dilara Torunoglu-Selamet, Dogukan Arslan, Rodrigo Wilkens, <strong>Wei He</strong>, et al.
+          A Parallel Cross-Lingual Benchmark for Multimodal Idiomaticity Understanding.
+          <em>LREC 2026</em>, pp. 9434-9448, 2026.
+        </li>
+        <li>
+          <strong>Wei He</strong>, Marco Idiart, Carolina Scarton, and Aline Villavicencio.
+          Enhancing Idiomatic Representation in Multiple Languages via an Adaptive Contrastive Triplet Loss.
+          <em>Findings of ACL 2024</em>, pp. 12473-12485, 2024.
+        </li>
+        <li>
+          Dogukan Arslan, Rodrigo Wilkens, <strong>Wei He</strong>, Dilara Torunoglu Selamet, Thomas Pickard,
+          Aline Villavicencio, Adriana Silvina Pagano, and Gulsen Eryigit.
+          MWE-2026 Shared Task: AdMIRe 2 Advancing Multimodal Idiomaticity Representation.
+          <em>MWE 2026</em>, pp. 276-287, 2026.
+        </li>
+        <li>
+          Thomas Pickard, Aline Villavicencio, Maggie Mi, <strong>Wei He</strong>, Dylan Phelps, and Marco Idiart.
+          SemEval-2025 Task 1: AdMIRe - Advancing Multimodal Idiomaticity Representation.
+          <em>SemEval 2025</em>, pp. 2597-2609, 2025.
+        </li>
+        <li>
+          <strong>Wei He</strong>, Katayoun Farrahi, Bin Chen, Bohua Peng, and Aline Villavicencio.
+          Representation Transfer and Data Cleaning in Multi-views for Text Simplification.
+          <em>Pattern Recognition Letters</em>, 177:40-46, 2024.
+        </li>
+        <li>
+          Bin Chen, Hong Chen, Zhishan Quan, <strong>Wei He</strong>, Visakan Kadirkamanathan,
+          Jose L. Casamayor, and Wei W. Xing.
+          SemaNet: Bridging Words and Numbers for Predicting Missing Environmental Data in Life Cycle Assessment.
+          <em>Environmental Science &amp; Technology</em>, 59(39):21131-21146, 2025.
+        </li>
+        <li>
+          Bohua Peng, <strong>Wei He</strong>, Bin Chen, Aline Villavicencio, and Chengfu Wu.
+          Multi-perspective Thought Navigation for Source-free Entity Linking.
+          <em>Pattern Recognition Letters</em>, 178:84-90, 2024.
+        </li>
+      </ol>
+
+      <div class="subsection">
+        <h3>Earlier selected work from M.Sc. onwards</h3>
+        <ol class="publication-list compact">
+          <li>
+            Zhu, X.; Zhang, S.; He, W.; Hu, R.; Lei, C.; Zhu, P.
+            One-step Multi-view Spectral Clustering.
+            <em>IEEE Transactions on Knowledge and Data Engineering</em>, 31(10):2022-2034, 2018.
+          </li>
+          <li>
+            Zhu, X.; He, W.; Li, Y.; Yang, Y.; Zhang, S.; Hu, R.; Zhu, Y.
+            One-step Spectral Clustering via Dynamically Learning Affinity Matrix and Subspace.
+            <em>AAAI 2017</em>.
+          </li>
+          <li>
+            Zhu, X.; Zhu, Y.; Zhang, S.; Hu, R.; He, W.
+            Adaptive Hypergraph Learning for Unsupervised Feature Selection.
+            <em>IJCAI 2017</em>, pp. 3581-3587.
+          </li>
+          <li>
+            He, W.; Zhu, X.; Cheng, D.; Hu, R.; Zhang, S.
+            Unsupervised Feature Selection for Visual Classification via Feature-Representation Property.
+            <em>Neurocomputing</em>, 236:5-13, 2017.
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="section-label">Projects</p>
+        <h2>Research projects and compute awards</h2>
+      </div>
       <div class="timeline">
         <article>
-          <h3>University of Southampton</h3>
-          <p class="meta">Sep 2018 - Jun 2023 · Computer Science · PhD</p>
-          <p>Dissertation: Text Simplification with Deep Neural Network Using Knowledge Transfer</p>
+          <div class="date">2026</div>
+          <div>
+            <h3>STEP-LLM: Scaling Causal Profiling of Super-Token Encoding and Cross-Lingual Fixedness in Frontier LLMs</h3>
+            <p>AIRR Gateway Compute Award, Isambard-AI AIRR Service, UKRI/DSIT. Project Lead; 10,000 GPU-hours awarded.</p>
+          </div>
         </article>
         <article>
-          <h3>Guangxi Normal University</h3>
-          <p class="meta">Sep 2014 - Jun 2017 · Computer Science and Technology · MEng</p>
+          <div class="date">2026</div>
+          <div>
+            <h3>DIVA-Bench: Benchmarking Semantic Alignment and Visual De-Noising in Frontier Vision-Language Models</h3>
+            <p>AIRR Gateway Compute Award, Isambard-AI AIRR Service, UKRI/DSIT. Project Lead; 10,000 GPU-hours awarded.</p>
+          </div>
         </article>
         <article>
-          <h3>North University of China</h3>
-          <p class="meta">Sep 2007 - Jun 2011 · Communication Engineering · BEng</p>
+          <div class="date">2025</div>
+          <div>
+            <h3>Network Guidance for Image Generation</h3>
+            <p>European COST Grant CA21167. Project Lead; completed short research project on image generation guidance and multimodal idiomaticity resources.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Professional Experience</h2>
+    <section id="experience" class="section two-column">
+      <div>
+        <p class="section-label">Experience</p>
+        <h2>Academic and research roles</h2>
+      </div>
       <div class="timeline">
         <article>
-          <h3>University of Exeter</h3>
-          <p class="meta">Feb 2025 - Dec 2025 · Postdoctoral Researcher</p>
+          <div class="date">2025 - Present</div>
+          <div>
+            <h3>Postdoctoral Research Associate, University of Exeter</h3>
+            <p>NLP, multimodal language understanding, idiomaticity, LLM/VLM evaluation, benchmark construction, and multilingual resources.</p>
+          </div>
         </article>
         <article>
-          <h3>University of Sheffield</h3>
-          <p class="meta">Apr 2023 - Dec 2024 · Postdoctoral Researcher</p>
+          <div class="date">2023 - 2024</div>
+          <div>
+            <h3>Postdoctoral Research Associate, University of Sheffield</h3>
+            <p>Research on idiomaticity, multiword expressions, multilingual NLP, representation learning, and semantic evaluation.</p>
+          </div>
         </article>
         <article>
-          <h3>Shenzhen Haiyuntian Technology Co., Ltd.</h3>
-          <p class="meta">Feb 2019 - Sep 2019 · NLP Algorithm Engineer</p>
+          <div class="date">2019</div>
+          <div>
+            <h3>NLP Algorithm Engineer, Shenzhen Haiyuntian Technology Co., Ltd.</h3>
+            <p>NLP algorithm development and data-driven language processing applications.</p>
+          </div>
         </article>
         <article>
-          <h3>Guangxi Jietong Expressway Technology Co., Ltd.</h3>
-          <p class="meta">Jul 2018 - Oct 2018 · Data Mining Engineer</p>
-        </article>
-        <article>
-          <h3>Rescon Microelectronics (Shenzhen) Co., Ltd.</h3>
-          <p class="meta">Dec 2011 - Feb 2014 · Field Implementation Engineer</p>
+          <div class="date">2018</div>
+          <div>
+            <h3>Data Mining Engineer, Guangxi Jietong Expressway Technology Co., Ltd.</h3>
+            <p>Data mining and machine learning applications.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Research Projects</h2>
-      <div class="project">
-        <h3>Network Guidance for Image Generation</h3>
-        <p class="meta">European Cooperation in Science &amp; Technology, E-COST-GRANT-CA21167-7be2dc3f</p>
-        <p>Duration: Aug 29, 2025 - Sep 30, 2025 · Funding: RMB 20,000 · Role: Principal Investigator</p>
+    <section class="section two-column">
+      <div>
+        <p class="section-label">Education</p>
+        <h2>Graduate training</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <div class="date">2018 - 2023</div>
+          <div>
+            <h3>Ph.D. in Computer Science, University of Southampton</h3>
+            <p>Thesis: Text Simplification with Deep Neural Networks Using Knowledge Transfer.</p>
+          </div>
+        </article>
+        <article>
+          <div class="date">2014 - 2017</div>
+          <div>
+            <h3>M.Sc. in Computer Science and Technology, Guangxi Normal University</h3>
+            <p>Graduate study in machine learning, feature selection, and data mining.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="card">
-      <h2>Selected Publications (Last 5 Years)</h2>
-      <ol class="publication">
-        <li>Wei He*; Tiago Kramer Vieira; Marcos Garcia; Carolina Scarton; Marco Idiart; Aline Villavicencio. Investigating idiomaticity in word representations. <em>Computational Linguistics</em>, 51(2), 505-555, 2025. (Sole first author)</li>
-        <li>Wei He*; Marco Idiart; Carolina Scarton; Aline Villavicencio. Enhancing Idiomatic Representation in Multiple Languages via an Adaptive Contrastive Triplet Loss. <em>Findings of ACL 2024</em>, 12473-12485. (Sole first author)</li>
-        <li>Wei He*; Katayoun Farrahi; Bin Chen; Bohua Peng; Aline Villavicencio. Representation transfer and data cleaning in multi-views for text simplification. <em>Pattern Recognition Letters</em>, 177, 40-46, 2024. (Sole first author)</li>
-        <li>Bin Chen; Hong Chen; Zhishan Quan; Wei He; Visakan Kadirkamanathan; Jose L Casamayor; Wei W Xing. SemaNet: Bridging Words and Numbers for Predicting Missing Environmental Data in Life Cycle Assessment. <em>Environmental Science &amp; Technology</em>, 59(39), 21131-21146, 2025. (4th author)</li>
-        <li>Thomas Pickard*; Aline Villavicencio; Maggie Mi; Wei He; Dylan Phelps; Marco Idiart. SemEval-2025 Task 1: AdMIRe. <em>SemEval-2025</em>, 2597-2609, 2025. (4th author)</li>
-        <li>Bohua Peng*; Bin Chen; Wei He; Visakan Kadirkamanathan. Prototype-aware Feature Selection for Multi-view Action Prediction in Human-Robot Collaboration. <em>IEEE ETFA 2024</em>, 1-7, 2024. (3rd author)</li>
-        <li>Bohua Peng*; Bin Chen; Wei He; William Thorne; Visakan Kadirkamanathan. Efficient Token Sparsification Through the Lens of Infused Knowledge. <em>FUSION 2024</em>, 1-8, 2024. (3rd author)</li>
-        <li>Bohua Peng*; Wei He; Bin Chen; Aline Villavicencio; Chengfu Wu. Multi-perspective thought navigation for source-free entity linking. <em>Pattern Recognition Letters</em>, 178, 84-90, 2024. (2nd author)</li>
-        <li>Bohua Peng*; Chengfu Wu; Wei He; William Thorne; Aline Villavicencio; Yujin Wang; Aline Paes. Flype: Multitask prompt tuning for multimodal human understanding of social media. <em>MUWS 2023</em>, 18-33, 2023. (3rd author)</li>
-      </ol>
-    </section>
-
-    <section class="card">
-      <h2>Other Publications (2016-2018)</h2>
-      <ol class="publication">
-        <li>Zhu, X., Zhang, S., He, W., Hu, R., Lei, C., &amp; Zhu, P. (2018). One-step multi-view spectral clustering. <em>IEEE TKDE</em>, 31(10), 2022-2034.</li>
-        <li>He, W., Zhu, X., Cheng, D., Hu, R., &amp; Zhang, S. (2017). Unsupervised feature selection for visual classification via feature-representation property. <em>Neurocomputing</em>, 236, 5-13.</li>
-        <li>He, W., Cheng, X., Hu, R., Zhu, Y., &amp; Wen, G. (2017). Feature self-representation based hypergraph unsupervised feature selection via low-rank representation. <em>Neurocomputing</em>, 253, 127-134.</li>
-        <li>Cheng, X., Zhu, Y., Song, J., Wen, G., &amp; He, W. (2017). A novel low-rank hypergraph feature selection for multi-view classification. <em>Neurocomputing</em>, 253, 115-121.</li>
-        <li>Hu, R., Cao, J., Cheng, D., He, W., Zhu, Y., Xie, Q., &amp; Wen, G. (2017). Self-representation dimensionality reduction for multi-model classification. <em>Neurocomputing</em>, 253, 154-161.</li>
-        <li>He, W., Zhu, X., Cheng, D., Hu, R., &amp; Zhang, S. (2017). Low-rank unsupervised graph feature selection via feature self-representation. <em>Multimedia Tools and Applications</em>, 76, 12149-12164.</li>
-        <li>Zhu, Y., Zhang, X., Wen, G., He, W., &amp; Cheng, D. (2017). Double sparse-representation feature selection algorithm for classification. <em>Multimedia Tools and Applications</em>, 76, 17525-17539.</li>
-        <li>Li, Y., Zhang, S., Cheng, D., He, W., Wen, G., &amp; Xie, Q. (2017). Spectral clustering based on hypergraph and self-re-presentation. <em>Multimedia Tools and Applications</em>, 76, 17559-17576.</li>
-        <li>Hu, R., Cheng, D., He, W., Wen, G., Zhu, Y., Zhang, J., &amp; Zhang, S. (2017). Low-rank feature selection for multi-view regression. <em>Multimedia Tools and Applications</em>, 76, 17479-17495.</li>
-        <li>Hu, R., Zhu, X., Cheng, D., He, W., Yan, Y., Song, J., &amp; Zhang, S. (2017). Graph self-representation method for unsupervised feature selection. <em>Neurocomputing</em>, 220, 130-137.</li>
-        <li>Zhu, X., He, W., Li, Y., Yang, Y., Zhang, S., Hu, R., &amp; Zhu, Y. (2017). One-step spectral clustering via dynamically learning affinity matrix and subspace. <em>AAAI</em>.</li>
-        <li>Zhu, X., Zhu, Y., Zhang, S., Hu, R., &amp; He, W. (2017). Adaptive Hypergraph Learning for Unsupervised Feature Selection. <em>IJCAI</em>.</li>
-        <li>Hu, R., Zhu, X., He, W., Zhang, J., &amp; Zhang, S. (2016). Supervised Feature Selection by Robust Sparse Reduced-Rank Regression. <em>ADMA</em>.</li>
-        <li>He, W., Zhu, X., Li, Y., Hu, R., Zhu, Y., &amp; Zhang, S. (2016). Unsupervised Hypergraph Feature Selection with Low-Rank and Self-Representation Constraints. <em>ADMA</em>.</li>
-      </ol>
-    </section>
-
-    <section class="card">
-      <h2>Honors &amp; Awards</h2>
-      <ul>
-        <li>National Graduate Scholarship</li>
-        <li>National Postgraduate Mathematical Modeling Contest, Third Prize</li>
-        <li>University of Southampton PhD Full Scholarship</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Academic Service</h2>
-      <ul>
-        <li>Area Chair: ACL 2025, EMNLP 2025</li>
-        <li>Organizer: SemEval 2025 Task 1 (AdMIRe), Co-organizer</li>
-        <li>Organizer: 22nd Workshop on Multiword Expressions (MWE 2026) AdMIRe 2, Co-organizer</li>
-        <li>EACL 2026, Website Chair</li>
-        <li>Program Committee: NeurIPS 2024, ACL 2023/2025, EMNLP 2022, AAAI 2021, IJCAI 2021</li>
-        <li>Journal Reviewer: ACM Computing Surveys, IEEE TKDE, Knowledge-Based Systems, Pattern Recognition, IEEE TAI, Neurocomputing</li>
-      </ul>
+    <section id="service" class="section two-column">
+      <div>
+        <p class="section-label">Service</p>
+        <h2>Academic service and awards</h2>
+      </div>
+      <div class="stack">
+        <div>
+          <h3>Shared tasks and conference roles</h3>
+          <ul class="plain-list">
+            <li>Organizer, MWE-2026 Shared Task: AdMIRe 2, 22nd Workshop on Multiword Expressions.</li>
+            <li>Organizer, SemEval-2025 Task 1: AdMIRe, International Workshop on Semantic Evaluation.</li>
+            <li>Area Chair: ACL 2025 and EMNLP 2025.</li>
+            <li>Website Chair: EACL 2026.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Reviewing</h3>
+          <p>
+            Program committee and reviewer for NeurIPS, ACL, EMNLP, AAAI, and IJCAI. Journal reviewer for
+            ACM Computing Surveys, IEEE TKDE, Knowledge-Based Systems, Pattern Recognition,
+            IEEE Transactions on Artificial Intelligence, and Neurocomputing.
+          </p>
+        </div>
+        <div>
+          <h3>Awards</h3>
+          <ul class="plain-list">
+            <li>Full Ph.D. Scholarship, University of Southampton.</li>
+            <li>National Scholarship for Graduate Students, China.</li>
+            <li>Third Prize, National Graduate Mathematical Contest in Modeling, China.</li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <p>© 2025 Wei He | Personal Homepage</p>
+  <footer class="site-footer">
+    <p>&copy; 2026 Wei He. Last updated June 2026.</p>
   </footer>
 </body>
 </html>
